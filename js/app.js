@@ -77,17 +77,17 @@ var btnMenuOpen = document.getElementById("btnMenuOpen"),
     menuResponsive = document.getElementById("menuBar"),
     enlaces = document.getElementById("navbar");
 
-// Click abrir
+// Click open
 btnMenuOpen.addEventListener("click", function () {
     menuResponsive.classList.add("active");
 });
 
-// Click cerrar
+// Click close
 btnMenuClose.addEventListener("click", function () {
     menuResponsive.classList.remove("active");
 });
 
-// Cerrar menu con elementos de enlace
+// Close menu resposive
 enlaces.addEventListener("click", function () {
     menuResponsive.style.transitionDelay = "0.5s";
     menuResponsive.classList.remove("active");
